@@ -29,3 +29,5 @@ The Microloan Management System is built around a powerful, database-enforced ar
 2.  **Automated Penalty Enforcement (PL/SQL Trigger):** The system's central innovation. A **trigger** automatically checks if a payment is late (`PAYMENT_DATE > DUE_DATE`), calculates a penalty based on the outstanding balance, and instantly records it in the **`PENALTIES`** table, ensuring consistent and unbiased application of lending rules. 
 3.  **Transactional Integrity:** Use of **PL/SQL Procedures** (e.g., `PRC_DISBURSE_LOAN`, `PRC_RECORD_PAYMENT`) and **Packages** (`MMS_LOAN_PKG`) to guarantee that all transactions are processed securely and atomicity is maintained.
 4.  **Reporting Foundation:** The normalized schema provides the foundation for Business Intelligence (BI) reporting, enabling calculation of KPIs like repayment rates, default rates by business type, and total collected penalties.
+MY BUSINESS PROCESS MODELLING
+<img width="512" height="271" alt="BPM" src="https://github.com/user-attachments/assets/d55781ae-b2c0-45fc-8cbf-64aa83214e1b" />
