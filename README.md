@@ -31,3 +31,5 @@ The Microloan Management System is built around a powerful, database-enforced ar
 4.  **Reporting Foundation:** The normalized schema provides the foundation for Business Intelligence (BI) reporting, enabling calculation of KPIs like repayment rates, default rates by business type, and total collected penalties.
 MY BUSINESS PROCESS MODELLING
 <img width="512" height="271" alt="BPM" src="https://github.com/user-attachments/assets/d55781ae-b2c0-45fc-8cbf-64aa83214e1b" />
+MY ENTITIES AND RELATIONSHIPS (ERD)
+<img width="759" height="446" alt="ERD" src="https://github.com/user-attachments/assets/4e84409e-3ead-4d54-9534-e3964bc843e2" />
